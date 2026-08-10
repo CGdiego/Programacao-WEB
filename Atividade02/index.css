@@ -1,0 +1,28 @@
+.container{
+    background-color: azure;
+}
+
+.card{
+    background-color: aquamarine;
+    padding: 5px;
+    width: 350px;
+    border: 7px solid rgb(0, 126, 95);
+    border-radius: 15px;
+}
+
+.card-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-content{
+    padding: 20px;
+}
