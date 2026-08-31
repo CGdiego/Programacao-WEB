@@ -22,6 +22,16 @@ const btnLimpar = document.getElementById("btnLimpar")
 btnEnviar.onclick = function(){
     console.log("Cliquei no botão")
 
+    if (inptNome.value === "" ||
+        inptEmail.value === "" ||
+        inptNascimento.value === "" || 
+        inptJogo.value === "" || 
+        inptSenha.value === "") {
+
+        alert("Preencha todos os campos antes de enviar!")
+        return;
+    }
+    
     const data = {
         nome:inptNome.value,
         email:inptEmail.value,
@@ -39,6 +49,7 @@ btnEnviar.onclick = function(){
     .then(data => {
         console.log("Success from PHP:", data)
     })
+}
 
 // Função maior
 btnNM.onclick = function(){
