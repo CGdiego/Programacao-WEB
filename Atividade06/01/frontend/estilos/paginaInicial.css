@@ -4,9 +4,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .container{
+    margin: 10px;
+    padding: 20px;
     background-color: white;
     width: 50%;
     height: 80%;
@@ -15,10 +18,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .tabela{
     font-size: 20px;
+    background-color: white;
+    margin: 30px;
 }
 
 td, th{
@@ -32,6 +38,17 @@ th{
 
 .linhas{
     background-color: rgb(210, 249, 210);
+}
+
+.tabela2{
+    background-color: white;
+    margin: 30px;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.linhas2{
+    padding: 50px;
 }
 
 /* CSS dos Cards */
