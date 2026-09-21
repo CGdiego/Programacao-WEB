@@ -1,0 +1,40 @@
+body{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: green;
+    box-shadow: 10px 10px 10px;
+    width: 50%;
+}
+
+.inpt{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+    border: none;
+    width: 90%;
+}
+
+#btnEntrar{
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+}
+
+#btnEntrar:hover{
+    background-color: aquamarine;
+    color: black;
+    cursor:pointer;
+}
