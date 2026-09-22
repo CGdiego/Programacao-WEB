@@ -12,7 +12,7 @@ function validate(email, ano){
     else if (ano == "")
         alert("Adicione um ano de nascimento.");
     else if (2026 - ano < 18)
-        alert("Apenas maiores de 18 anos podem aceder.");
+        alert("Apenas maiores de 18 anos podem entrar.");
     else
         window.location.href = "./paginas/listagem.html";
 };
