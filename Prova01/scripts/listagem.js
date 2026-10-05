@@ -1,18 +1,18 @@
 const tabelaCorpo = document.getElementById("tabelaCorpo");
 
-let elementosTabela = [
+const elementosTabela = [
     { nome: "Brasil", capital: "Brasília", continente: "América", idioma: "Português", moeda: "Real" },
     { nome: "Japão", capital: "Tóquio", continente: "Ásia", idioma: "Japonês", moeda: "Iene" },
     { nome: "França", capital: "Paris", continente: "Europa", idioma: "Francês", moeda: "Euro" }
 ];
 
-let elementosProcessados = elementosTabela.map(n => `
+const elementosProcessados = elementosTabela.map(pais => `
     <tr>
-        <td>${n.nome}</td>
-        <td>${n.capital}</td>
-        <td>${n.continente}</td>
-        <td>${n.idioma}</td>
-        <td>${n.moeda}</td>
+        <td>${pais.nome}</td>
+        <td>${pais.capital}</td>
+        <td>${pais.continente}</td>
+        <td>${pais.idioma}</td>
+        <td>${pais.moeda}</td>
     </tr>
 `).join("");
 
