@@ -15,7 +15,7 @@ function populate(data){
     console.log("Populando tabela")
     let dadosMap = data.map(item => `
         <tr>
-            <td>${item.id_aluno}</td>
+            <td>${item.id}</td>
             <td>${item.nome}</td>
         </tr>
     `).join("")
